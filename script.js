@@ -15,7 +15,7 @@ function generatePassword(){
     window.alert("You've entered a valid password length.")
   } else {
     window.alert("Please enter a valid number between 8 and 128. Press the Generate Password button again to restart the process.")
-    return 
+    return null;
   }
 
   // the user's input from the questions will be stored in the assigned variables//
@@ -28,6 +28,10 @@ function generatePassword(){
   var genPwd = "";
   var pwdOptions = [];
 
+  if (!addNumbers && !addSpecChar && !addLowCase && !addUppCase){
+    window.alert(" Must have at least one character type.")
+    return null;
+  }
   // conditional statements to concatenate arrays based on user's input //
   if (addNumbers === true) {
     pwdOptions = pwdOptions.concat(numbers);
