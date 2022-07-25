@@ -6,7 +6,7 @@ Deployed Link:
 [https://github.com/sprantis/password-generator]
 
 Description:
-I have have been asked to refactor a password generator to help create secure passwords that will protect the company's interests. The password generator has specific secure password criteria like character limits, uppercase or lowercase sensitivity, numeric requirements, and special characters. Once acceptance criteria for the password is met there will be an alert displayed on the page. 
+I have refactored a password generator app to help create secure passwords. The password generator asks for user input like character limits, inclusion of uppercase or lowercase letters, numbers, and special characters. Once acceptance criteria for the password is met, a randomized password is generated and displayed on the page. 
 
 
 
@@ -15,7 +15,7 @@ I have have been asked to refactor a password generator to help create secure pa
 
 Screenshot:
 
-
+![Password-Generator](./assets/images/password-generator-screenshot.png)
 
 Repo Link:
  [https://sprantis.github.io/password-generator/]
