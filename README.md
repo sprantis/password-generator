@@ -1,4 +1,4 @@
-# Password-Generator
+# Password Generator
 
 ## Secure Password Generator 
 
